@@ -80,7 +80,7 @@ const SearchOptions = () => {
           id="negotiable"
           checked={negotiable}
           onChange={handleNegotiableChange}
-          className="mr-2"
+          className="mr-2 custom-checkbox"
         />
         <label htmlFor="negotiable">Négociable</label>
         <input
@@ -88,7 +88,7 @@ const SearchOptions = () => {
           id="recently-posted"
           checked={recentlyPosted}
           onChange={handleRecentlyPostedChange}
-          className="ml-4 mr-2"
+          className="ml-4 mr-2 custom-checkbox"
         />
         <label htmlFor="recently-posted">Récemment posté</label>
       </div>
